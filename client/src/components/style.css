@@ -122,6 +122,10 @@
     }
 }
 
+.fc-theme-standard td{
+    border: 0px solid #fff
+}
+
 /* .fc-h-event {
     opacity: 100%;
     width: 376px;
