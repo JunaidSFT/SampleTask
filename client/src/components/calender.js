@@ -43,28 +43,6 @@ export default function Calender () {
     fetchData()
   }, [fetchData])
 
-    const events = [ 
-    {
-      title  : 'Junaid',
-      start  : '2021-10-20T02:30:00',
-      end : '2021-10-20T08:30:00',
-      groupId   : 'Order Id:79408',
-      url : '#FF6263'
-    },
-    {
-      title  : 'Ali Ahmed',
-      start  : '2021-10-20T07:30:00',
-      groupId : 'Order Id: 14375',
-      url : '#01DCEB'
-    },
-    {
-      title   :  'Hamza ',
-      start   :  '2021-10-20T17:30:00',
-      groupId :  'Order Id: 24879',
-      url : '#01DCEB'
-    }
-
-];
 
 useEffect(() => {
   let calendarApi = calendarRef.current.getApi()
